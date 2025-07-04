@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metas -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="keywords" content="ecBot- automation api" />
+  <meta name="description" content="ecBot- automation api" />
+  <meta name="author" content="ecbot" />
+
+  <!-- Title  -->
+  <title>ecBot | Engage. Automate. Grow.</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/logos/ecbot-fav.png" title="Favicon" sizes="16x16" />
+
+  <!-- ====== bootstrap icons cdn ====== -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap 5 -->
+  <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css" />
+
+  <!-- ====== font family ====== -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/lib/all.min.css" />
+  <link rel="stylesheet" href="assets/css/lib/animate.css" />
+  <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.css" />
+  <link rel="stylesheet" href="assets/css/lib/lity.css" />
+  <link rel="stylesheet" href="assets/css/lib/swiper.min.css" />
+  <!-- ====== global style ====== -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="home-onePage">
+  <!-- ====== start loading page ====== -->
+  <!-- <div id="preloader">
+    </div> -->
+  <!-- ---------- loader ---------- -->
+  <div id="preloader">
+    <div id="loading-wrapper" class="show">
+      <div id="loading-text">
+        <img src="assets/img/ecbot_fav_icon.png" alt="ecbot_fav" />
+      </div>
+      <div id="loading-content"></div>
+    </div>
+  </div>
+  <!-- ====== end loading page ====== -->
+
+  <!-- ====== start navbar ====== -->
+  <nav class="navbar navbar-expand-lg navbar-light style-4" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logos/ecbot-logo-trans.png" alt="ecBot Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
+          <!-- Home -->
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+
+          <!-- channel Dropdown -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+              Channel
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="channel.html#whatsapp">WhatsApp</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="channel.html#facebook">Facebook</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="channel.html#instagram">Instagram</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="channel.html#telegram">Telegram</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="channel.html#website">Website</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- Integration -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#integration">Integration</a>
+          </li>
+
+          <!-- Features Dropdown -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#features"> Features </a>
+          </li>
+
+          <!-- Services Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="index.html#what-we-offer">What We Offer</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="index.html#how-we-help">How We Help</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="index.html#faq">F.A.Q</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- About Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="index.html#about-us">About Us</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="index.html#why-choose-us">Why Choose Us</a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="index.html#how-it-works">How It Works</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- CTA Button -->
+        <div class="nav-side">
+          <div class="d-flex align-items-center">
+            <a href="#book-consultation" class="btn rounded-pill brd-gray hover-blue4 sm-butn fw-bold">
+              <span><i class="fas fa-calendar-check me-2 pe-2 border-end"></i>
+                Book Free Consultation</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ====== end navbar ====== -->
+
+  <!-- ====== start header ====== -->
+
+  <header class="legal-policy legal-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h1><i class="fas fa-shield-alt me-3"></i>Privacy Policy</h1>
+          <p>
+            Your privacy is important to us. Learn how we protect and handle
+            your personal information at ecBot.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ====== end header ====== -->
+
+  <!--Contents-->
+  <main>
+    <div class="section-padding legal-policy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="legal-content">
+              <!-- Introduction -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-handshake"></i>
+                    Introduction
+                  </h2>
+                  <div class="highlight-box">
+                    <p class="legal-text mb-0">
+                      Welcome to <strong>https://ecBot.com</strong>. We value
+                      your privacy and are committed to protecting your
+                      personal information. This policy outlines how we
+                      collect, use, and share information from visitors and
+                      registered customers of our multi-channel automation
+                      platform.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PII Definition -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-user-tag"></i>
+                    Personally Identifiable Information (PII)
+                  </h2>
+                  <p class="legal-text">
+                    PII refers to any information that can identify an
+                    individual, including but not limited to:
+                  </p>
+                  <div class="mb-3">
+                    <span class="info-badge">Name</span>
+                    <span class="info-badge">Address</span>
+                    <span class="info-badge">Phone Number</span>
+                    <span class="info-badge">Email</span>
+                    <span class="info-badge">IP Address</span>
+                    <span class="info-badge">Browser Information</span>
+                  </div>
+                  <p class="legal-text">
+                    PII does not include anonymous or demographic data that
+                    cannot be linked to a specific individual.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Information Collection -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-database"></i>
+                    What Information We Collect
+                  </h2>
+                  <p class="legal-text">
+                    We collect basic user profile information from all
+                    visitors. For authorized customers, we gather additional
+                    details including name, address, phone number, email, IP
+                    address, and business information to provide our
+                    automation services effectively.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Third Party Collection -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-users-cog"></i>
+                    Collection by Third Parties
+                  </h2>
+                  <p class="legal-text">
+                    Third-party vendors such as credit card companies, banks,
+                    and Google Workspace APIs may collect information during
+                    your use of our services. We ask these vendors to disclose
+                    their use of your information, but we do not control how
+                    they handle it.
+                  </p>
+                  <p class="legal-text">
+                    We recommend reviewing the privacy policies of these
+                    third-party services to understand their data handling
+                    practices.
+                  </p>
+                </div>
+              </div>
+
+              <!-- How PII is Used -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-cogs"></i>
+                    How We Use Your Information
+                  </h2>
+                  <p class="legal-text">We use your PII to:</p>
+                  <p class="legal-text">
+                    Customize your experience on our platform, fulfill service
+                    requests, send emails about services and opportunities,
+                    respond to inquiries, and provide requested information
+                    and support for our automation solutions.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Information Sharing -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-share-alt"></i>
+                    Information Sharing
+                  </h2>
+                  <p class="legal-text">
+                    We may share PII with other authorized customers for
+                    potential business transactions. We also share aggregated,
+                    anonymous data with third-party vendors for analytics and
+                    service improvement purposes.
+                  </p>
+                  <p class="legal-text">
+                    All shared aggregated data is anonymized and cannot be
+                    traced back to individual users.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Data Storage -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-lock"></i>
+                    Storage of Information
+                  </h2>
+                  <p class="legal-text">
+                    Your information is securely stored using
+                    industry-standard security measures and is only accessible
+                    by authorized employees for the stated purposes. We
+                    implement appropriate technical and organizational
+                    safeguards to protect your data.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Visitor Choices -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-user-check"></i>
+                    Your Choices
+                  </h2>
+                  <p class="legal-text">
+                    You may opt-out of receiving unsolicited information by
+                    contacting us directly using the contact information
+                    provided below. We respect your communication preferences
+                    and will honor your requests promptly.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Cookies -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-cookie-bite"></i>
+                    Cookies & Tracking
+                  </h2>
+                  <p class="legal-text">
+                    Cookies help us understand your preferences and enhance
+                    security on our platform. They may also automatically log
+                    off authorized customers after a period of inactivity to
+                    protect your account.
+                  </p>
+                  <p class="legal-text">
+                    We use login details like IP addresses and browser types
+                    for trend analysis and demographic tracking to improve our
+                    services.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Third Party Partners -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-handshake"></i>
+                    Third-Party Partners
+                  </h2>
+                  <p class="legal-text">
+                    Some third-party vendors may access your PII on a
+                    need-to-know basis to assess eligibility for our services.
+                    This privacy policy does not cover their use of your data,
+                    and we encourage you to review their respective privacy
+                    policies.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Legal Disclosure -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-gavel"></i>
+                    Legal Disclosure
+                  </h2>
+                  <p class="legal-text">
+                    We may disclose PII when required to comply with legal
+                    requirements, court orders, or to protect the safety and
+                    security of our users, employees, or the general public.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Data Security -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-shield-alt"></i>
+                    Data Security
+                  </h2>
+                  <p class="legal-text">
+                    We implement reasonable security measures to protect your
+                    PII from unauthorized access, alteration, disclosure, or
+                    destruction. However, no system is completely secure, and
+                    we cannot guarantee absolute security. We are not liable
+                    for security breaches beyond our reasonable control.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Updating Information -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-edit"></i>
+                    Updating & Correcting Information
+                  </h2>
+                  <p class="legal-text">
+                    Visitors and customers can contact us at any time to
+                    correct, update, or review their personal information. We
+                    are committed to maintaining accurate and current data.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Deleting Information -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-trash-alt"></i>
+                    Deleting Information
+                  </h2>
+                  <p class="legal-text">
+                    You can request to delete or deactivate your PII by
+                    contacting us. Please note that some residual data may
+                    remain in our backup systems for a limited period due to
+                    technical and privacy requirements.
+                  </p>
+                </div>
+              </div>
+
+              <!-- External Links -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-external-link-alt"></i>
+                    External Links
+                  </h2>
+                  <p class="legal-text">
+                    Our website may contain links to other sites. We encourage
+                    you to review their privacy policies as they may differ
+                    from ours. We are not responsible for the privacy
+                    practices of external websites.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Contact Information -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-envelope"></i>
+                    Contact Information
+                  </h2>
+                  <p class="legal-text">
+                    If you have any questions, concerns, or requests regarding
+                    this privacy policy or your personal information, please
+                    contact us:
+                  </p>
+                  <div class="contact-grid">
+                    <div class="contact-item">
+                      <i class="fas fa-envelope"></i>
+                      <h6>Email Support</h6>
+                      <p>
+                        <a href="mailto:support@ecbot.app">support@ecbot.app</a>
+                      </p>
+                    </div>
+                    <div class="contact-item">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <h6>Address</h6>
+                      <p>Kannur, Kerala, India</p>
+                    </div>
+                    <div class="contact-item">
+                      <i class="fas fa-headset"></i>
+                      <h6>Support Desk</h6>
+                      <p>
+                        <a href="https://ecBot.com/tickets" target="_blank">ecBot.com/tickets</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Policy Changes -->
+              <div class="legal-section">
+                <div class="px-4">
+                  <h2 class="section-title">
+                    <i class="fas fa-sync-alt"></i>
+                    Changes to This Privacy Policy
+                  </h2>
+                  <p class="legal-text">
+                    We will notify you of any changes to this privacy policy
+                    by posting updates on this page. If we change the policy
+                    in a way that affects previously opted-out information, we
+                    will contact you directly.
+                  </p>
+                  <p class="legal-text">
+                    We recommend reviewing this policy periodically to stay
+                    informed about how we protect your information.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="last-updated">
+              <i class="fas fa-calendar-alt me-2"></i>
+              Last Updated: June 2025 | Effective immediately upon posting
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--End-Contents-->
+
+  <!-- ====== start footer ====== -->
+  <footer id="book-consultation" class="style-4">
+    <div class="container">
+      <div class="row">
+        <!-- Left column: Value proposition and CTA headline -->
+        <div class="col-lg-6 mb-4">
+          <div class="section-head style-4">
+            <!-- Primary conversion-focused headline with span for styling emphasis -->
+            <small class="title_small">⚡️Powered By Evoglad</small>
+            <h2 class="mb-20">
+              Ready to Supercharge Your Business with <br />
+              <span> WhatsApp Automation? </span>
+            </h2>
+            <!-- Supporting text that reinforces value proposition with explicit line breaks for visual control -->
+            <p class="section-subtitle text-muted">
+              Transform your customer experience with intelligent, real-time
+              <br />
+              communication — faster, smarter, and more personal.
+            </p>
+
+            <!-- Contact information section -->
+            <div class="contact-info mt-4">
+              <h5 class="mb-3">Contact Us:</h5>
+              <div class="contact-details">
+                <p class="mb-2">
+                  <strong>Evoglad Private Ltd</strong><br />
+                  Kannur, Kerala
+                </p>
+                <p class="mb-2">
+                  <i class="fas fa-phone me-2"></i>
+                  <strong>Mobile:</strong> +91 77369 12103
+                </p>
+                <p class="mb-0">
+                  <i class="fas fa-envelope me-2"></i>
+                  <strong>Email:</strong> support@ecbot.app
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right column: Lead capture form -->
+        <div class="col-lg-6">
+          <div class="cta-form-container">
+            <!-- Empty header div likely used for background styling or spacing -->
+            <div class="cta-form-header"></div>
+
+            <!-- Form headline emphasizing quick setup time to reduce friction -->
+            <h3 class="section-header">
+              Get started in
+              <span> 2 minutes. </span>
+            </h3>
+
+            <!-- Lead qualification form collecting business context for better sales follow-up -->
+            <form class="cta-form" id="consultationForm">
+              <!-- Standard contact fields with consistent icon pattern for visual hierarchy -->
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Full Name" required />
+                <i class="fas fa-user form-icon"></i>
+              </div>
+
+              <div class="form-group">
+                <!-- Using tel input type for mobile keyboard optimization -->
+                <input type="tel" class="form-control" placeholder="Phone Number" required />
+                <i class="fas fa-phone form-icon"></i>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Company Name" required />
+                <i class="fas fa-building form-icon"></i>
+              </div>
+
+              <!-- Business size selector for lead qualification and pricing tier determination -->
+              <div class="form-group">
+                <select class="form-control" required>
+                  <option value="">Business Size</option>
+                  <option value="startup">Startup (1-10 employees)</option>
+                  <option value="small">
+                    Small Business (11-50 employees)
+                  </option>
+                  <option value="medium">
+                    Medium Business (51-200 employees)
+                  </option>
+                  <option value="enterprise">
+                    Enterprise (200+ employees)
+                  </option>
+                </select>
+                <i class="fas fa-users form-icon"></i>
+              </div>
+
+              <!-- Multi-element button structure allows for complex animations and hover effects -->
+              <button type="submit" class="btn-cta">
+                <span class="btn-text">Book Free Consultation</span>
+                <i class="fas fa-arrow-right btn-icon"></i>
+                <!-- Separate background div enables advanced CSS animations without affecting text -->
+                <div class="btn-bg"></div>
+              </button>
+
+              <!-- Trust signal to address privacy concerns and reduce form abandonment -->
+              <p class="form-disclaimer">
+                <i class="fas fa-lock"></i>
+                Your information is secure and will never be shared
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondary footer section with navigation and branding -->
+    <div class="foot mt-80">
+      <div class="row align-items-center">
+        <!-- Logo section taking minimal space -->
+        <div class="col-lg-2">
+          <div class="logo">
+            <img src="assets/img/logos/ecbot-logo-trans.png" alt="ecbot logo" />
+          </div>
+        </div>
+
+        <!-- Main navigation links taking majority of horizontal space -->
+        <div class="col-lg-8">
+          <ul class="links">
+            <!-- Home link with active state - likely managed by JavaScript based on current page -->
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+
+            <!-- Hash links for smooth scrolling to page sections -->
+            <li>
+              <a href="channel.html">Channel</a>
+            </li>
+            <li>
+              <a href="index.html#features">Feature</a>
+            </li>
+            <li>
+              <a href="index.html#what-we-offer">Service</a>
+            </li>
+            <li>
+              <a href="index.html#why-choose-us">About</a>
+            </li>
+
+            <!-- Legal pages as separate HTML files for SEO and compliance -->
+            <li>
+              <a href="terms-of-service.html">Terms of Service</a>
+            </li>
+            <li>
+              <a href="privacy-policy.html">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="refund.html">Refund</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Right column: Social Media Icons -->
+        <div class="col-lg-2">
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.x.com" target="_blank" aria-label="Twitter">
+              <i class="bi bi-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright notice with current year and brand link -->
+    <div class="copywrite text-center">
+      <small class="small">
+        © 2025 Copyrights by
+        <!-- Brand link with styling classes for visual emphasis -->
+        <a href="#" class="fw-bold text-decoration-underline">Evoglad Private Ltd</a>
+        All Rights Reserved.
+      </small>
+    </div>
+
+    <!-- Decorative wave image positioned absolutely via CSS for visual design -->
+    <img src="assets/img/footer/footer_wave.png" alt="wave design for footer" class="wave" />
+  </footer>
+  <!-- ====== end footer ====== -->
+
+  <!-- ====== start to top button ====== -->
+  <a href="#" class="to_top bg-gray rounded-circle icon-40 d-inline-flex align-items-center justify-content-center">
+    <i class="bi bi-chevron-up fs-6 text-dark"></i>
+  </a>
+  <!-- ====== end to top button ====== -->
+
+  <!-- ====== request ====== -->
+  <script src="assets/js/lib/jquery-3.0.0.min.js"></script>
+  <script src="assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+  <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/lib/wow.min.js"></script>
+  <script src="assets/js/lib/jquery.fancybox.js"></script>
+  <script src="assets/js/lib/lity.js"></script>
+  <script src="assets/js/lib/swiper.min.js"></script>
+  <script src="assets/js/lib/jquery.waypoints.min.js"></script>
+  <script src="assets/js/lib/jquery.counterup.js"></script>
+  <!-- <script src="assets/js/lib/pace.js"></script> -->
+  <script src="assets/js/lib/scrollIt.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
